@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP Experience | Casais Liberais</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #7b2cbf; --dark: #10002b; --light: #f8f9fa; }
+        body { font-family: 'Inter', sans-serif; margin: 0; background: var(--light); color: var(--dark); line-height: 1.6; }
+        
+        /* Hero Section */
+        .hero { background: linear-gradient(135deg, var(--dark), var(--primary)); color: white; padding: 60px 20px; text-align: center; }
+        
+        /* Menu Moderno */
+        nav { background: white; padding: 15px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; }
+        nav a { margin: 0 15px; text-decoration: none; color: var(--dark); font-weight: bold; transition: 0.3s; }
+        nav a:hover { color: var(--primary); }
+
+        /* Estilo dos Cards */
+        .container { max-width: 900px; margin: 40px auto; padding: 20px; }
+        .card { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); margin-bottom: 30px; }
+        
+        /* Imagem Estilizada */
+        .main-img { width: 100%; max-width: 600px; border-radius: 20px; display: block; margin: 20px auto; border: 5px solid white; box-shadow: 0 15px 35px rgba(0,0,0,0.2); }
+
+        /* Botão Ação */
+        .btn-cta { display: block; width: fit-content; margin: 20px auto; padding: 15px 40px; background: var(--primary); color: white; text-decoration: none; border-radius: 50px; font-weight: bold; transition: 0.4s; }
+        .btn-cta:hover { transform: translateY(-5px); background: #5a189a; }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Grupo VIP - Comunidade Liberal</h1>
+        <p>Privacidade, elegância e experiências exclusivas.</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#galeria">Resultados</a>
+        <a href="#comprovante">Acesso</a>
+        <a href="#contatos">Contato</a>
+    </nav>
+
+    <div class="container">
+        <img src="https://i.postimg.cc/GTTc6zWs/file-00000000ef2c71f586217268427ba6a3.png" alt="Destaque" class="main-img">
+
+        <section id="sobre" class="card">
+            <h2>Sobre o Nosso Espaço</h2>
+            <p>Criamos um ambiente onde casais podem se conectar com segurança e liberdade. Nosso grupo VIP é focado em qualidade, respeito e novas descobertas.</p>
+        </section>
+
+        <section id="galeria" class="card">
+            <h2>Galeria</h2>
+            <p>Uma prévia do que acontece em nossa comunidade exclusiva.</p>
+        </section>
+
+        <section id="comprovante" class="card">
+            <h2>Garanta seu Acesso</h2>
+            <p>Após realizar o pagamento, envie seu comprovante para nossa equipe.</p>
+            <a href="https://t.me/seu_usuario" class="btn-cta">Enviar Comprovante (Telegram)</a>
+        </section>
+    </div>
+
+</body>
+</html>
